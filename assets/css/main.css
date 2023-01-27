@@ -1,0 +1,87 @@
+body {
+    background: #cecece;
+    font-family: verdana;
+}
+
+.container {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto 0 auto;
+}
+
+.banner {
+    width: 100%;
+    padding: 0 10px 0 10px;
+    background-color: #8046a5;
+    color: #ffffff;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.nav > h1 {
+    color: #f8f800;
+}
+
+.nav > .nav-link {
+    display: flex;
+    padding: 0 20px 0 20px;
+}
+
+.nav > .nav-link > ul {
+    margin-top: 20px;
+}
+
+.nav > .nav-link > ul > li {
+    margin-top: 40px;
+    display: inline;
+    margin: 10px;
+}
+
+.nav > .nav-link > ul > li > a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav > .nav-link > button {
+    color: #222222;
+    background-color: #f8f800;
+    margin-top: 10px;
+    height: 35px;
+    padding: 5px;
+    border: 1px solid #cecece;
+    border-radius: 10px;
+}
+
+/* styling the banner part */
+.banner-msg {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.banner-msg > .banner-text {
+    width: 40%;
+}
+
+.banner-msg > .banner-text > h1 {
+    font-size: 40px;
+}
+
+.banner-msg > .banner-text > h1 > span {
+    color: #f8f800;
+}
+
+.banner-msg > .banner-text > p {
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+.banner-msg > .banner-text > .action-button {
+    display: flex;
+    justify-content: space-between;
+} 
