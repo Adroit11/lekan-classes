@@ -84,4 +84,43 @@ body {
 .banner-msg > .banner-text > .action-button {
     display: flex;
     justify-content: space-between;
+    margin: 10px 0 20px 0;
 } 
+
+.explore-btn {
+    background: #f8f800;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.footer > .eaty {
+    width: 30%;
+}
+
+.footer > .eaty > h1 {
+    color: purple;
+    font-size: 20px;
+}
+.hold4 {
+    display: flex;
+}
+
+.hold4 > .footer-link > ul {
+    list-style: none;
+}
+
+.hold4 > .footer-link > ul > li {
+    padding: 10px 0 10px 0;
+}
+
+.hold4 > .footer-link > ul > li.header {
+    font-weight: bold;
+    color: purple;
+}
