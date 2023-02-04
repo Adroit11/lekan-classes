@@ -1,126 +1,54 @@
 body {
-    background: #cecece;
-    font-family: verdana;
+    font-family: Verdana;
 }
-
-.container {
-    width: 80%;
-    height: 100%;
-    margin: 0 auto 0 auto;
-}
-
-.banner {
+.header {
     width: 100%;
-    padding: 0 10px 0 10px;
-    background-color: #8046a5;
-    color: #ffffff;
+    padding: 5px 0 5px 0;
+    border-bottom: 1px solid #cccccc;
 }
 
-.nav{
+.header-container {
+    width: 1000px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    padding: 10px;
 }
 
-.nav > h1 {
-    color: #f8f800;
-}
-
-.nav > .nav-link {
+.header-title {
+    width: 280px;
     display: flex;
-    padding: 0 20px 0 20px;
+    justify-content: space-between;
 }
 
-.nav > .nav-link > ul {
-    margin-top: 20px;
+.header-title > h1 {
+    font-size: 18px;
 }
 
-.nav > .nav-link > ul > li {
-    margin-top: 40px;
+.header-navs > ul > li {
     display: inline;
-    margin: 10px;
-}
-
-.nav > .nav-link > ul > li > a {
-    text-decoration: none;
-    color: #ffffff;
-}
-
-.nav > .nav-link > button {
-    color: #222222;
-    background-color: #f8f800;
-    margin-top: 10px;
-    height: 35px;
     padding: 5px;
-    border: 1px solid #cecece;
-    border-radius: 10px;
 }
 
-/* styling the banner part */
-.banner-msg {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-    padding: 20px;
-}
-
-.banner-msg > .banner-text {
-    width: 40%;
-}
-
-.banner-msg > .banner-text > h1 {
-    font-size: 40px;
-}
-
-.banner-msg > .banner-text > h1 > span {
-    color: #f8f800;
-}
-
-.banner-msg > .banner-text > p {
-    margin-top: 10px;
-    font-size: 10px;
-}
-
-.banner-msg > .banner-text > .action-button {
-    display: flex;
-    justify-content: space-between;
-    margin: 10px 0 20px 0;
-} 
-
-.explore-btn {
-    background: #f8f800;
+.header-navs > ul > li > button {
+    background-color: #3244ff;
     padding: 10px;
+    margin-left: 10px;
     border-radius: 10px;
+    border: none;
+    color: #fff;
 }
 
-.footer {
+.header-navs > ul > li > a {
+    text-decoration: none;
+    color: #111111;
+}
+
+.main {
     width: 100%;
+}
+
+.main-content {
+    width: 1000px;
+    margin: 0 auto;
     display: flex;
-    justify-content: space-between;
-    font-size: 15px;
-}
-
-.footer > .eaty {
-    width: 30%;
-}
-
-.footer > .eaty > h1 {
-    color: purple;
-    font-size: 20px;
-}
-.hold4 {
-    display: flex;
-}
-
-.hold4 > .footer-link > ul {
-    list-style: none;
-}
-
-.hold4 > .footer-link > ul > li {
-    padding: 10px 0 10px 0;
-}
-
-.hold4 > .footer-link > ul > li.header {
-    font-weight: bold;
-    color: purple;
 }
